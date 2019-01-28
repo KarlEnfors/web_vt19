@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+
+}
+
+h1{
+    color: green;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 50;
+}
+
+p {
+    font-family: Georgia;
+    font-size:  3vw;
+    color: red;
+
+}
+
+.box {
+    border: dotted red 5px;
+    float: left;
+    padding: 5vw;
+    min-width: 30%;
+    background-color: aqua;
+
+}
+
+

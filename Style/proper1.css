@@ -1,0 +1,53 @@
+body    {
+
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: round;
+    background-image: url("../content/schematic.jpg");
+
+}
+
+h1  {
+    width: 100vw;
+    color: darkslategrey;
+    text-align: center;
+    letter-spacing: 3vw;
+    font-size: 10vw;
+    font-family: sans-serif;
+}
+h1:hover{
+    color: blue;
+}
+
+p   {
+    color: lightblue;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+div {
+    display: block;
+    max-width: 90vw;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.picContainer {
+    display: table;
+    float: left;
+    min-width: 10vw;
+    max-width: 50vw;
+    padding: 4px;
+    z-index: 2;
+
+
+}
+.picContainer:hover {
+    border: 4px solid lightblue;
+    padding: 0vw;
+}
